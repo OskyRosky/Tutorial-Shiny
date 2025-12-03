@@ -1,0 +1,80 @@
+---
+title: 'Tema 8: La funcionalidad reactive en Shiny.'
+
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+<style>
+table {
+background-color:#FFFFFF;
+}
+</style>
+
+<style>
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: darkblue;
+}
+</style>
+
+<button onclick="document.body.scrollTop = document.documentElement.scrollTop = 0;" style="
+    position: fixed;
+    bottom: 5px;
+    right: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0A71A0;
+    border: none;
+    border-radius: 15px;
+    
+">Ir arriba</button>
+
+
+El presente tema abarca la funcionalidad reative dentro del Shiny.  
+
+Se abordarán los siguientes temas:
+
+
+- Selección reactive: del body - al server.
+- Opciones reactive del body.
+- La estructura reactive del server.
+- Dashboard reactive. 
+
+
+
+# 1. Selección reactive: del body - al server.
+
+# 2. Opciones reactive del body.
+
+# 3. La estructura reactive del server.
+
+# 4. Dashboard reactive.
+
+
+
+# 5. Referencias. 
+
+Pueden consultar los siguientes enlaces:
+
+- https://datanalytics.com/libro_r/shiny.html
+- 
+- https://appsilon.com/how-to-share-r-shiny-apps/
+- https://yakdata.com/ultimate-guide-r-shiny-app-dashboards-2021-2/#foogallery-4591/i:4558
+- https://epirhandbook.com/en/dashboards-with-shiny.html
+- https://appsilon.com/how-i-built-an-interactive-shiny-dashboard-in-2-days-without-any-experience-in-r/
+- https://shiny.rstudio.com/articles/dashboards.html
+- https://www.datanovia.com/en/lessons/highchart-interactive-world-map-in-r/
+- https://www.jessesadler.com/post/network-analysis-with-r/

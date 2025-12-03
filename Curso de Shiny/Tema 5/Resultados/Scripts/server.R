@@ -1,0 +1,38 @@
+###########
+#  Server #
+###########
+
+server <- function(input, output) {
+  
+  ###############################
+  #  Tabla de ejemplo en Shiny  #
+  ###############################
+  
+  output$tabla.ejemplo <- renderReactable({ 
+    
+   Tabla <- iris
+    
+    reactable(Tabla) 
+    
+  })
+  
+
+  #################################
+  #  Gráfico de ejemplo en Shiny  #
+  #################################
+  
+  output$grafi <- renderHighchart({
+    
+    data("mtcars")
+    df <- mtcars
+    
+    df$cyl <- as.factor(df$cyl)
+    hc <- df %>% 
+      hchart('scatter', hcaes(x = wt, y = mpg, group = cyl)) %>%
+      hc_colors(c("#00AFBB", "#E7B800", "#FC4E07"))
+    
+    hc
+  })
+  
+  
+}
